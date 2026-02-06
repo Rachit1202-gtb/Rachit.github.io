@@ -1,176 +1,40 @@
-<!DOCTYPE html>
-<html lang="en" class="dark">
+<!DOCTYPE html><html lang="en" class="dark">
 <head>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" />
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Rachit Bharti | Portfolio</title>
+  <title>Rachit Bharti | HR Professional</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-
   <style>
-    .hex {
-      clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
-    }
-    .fade-in {
-      opacity: 0;
-      transform: translateY(20px);
-      transition: opacity 0.8s ease-out, transform 0.8s ease-out;
-    }
-    .fade-in.visible {
-      opacity: 1;
-      transform: none;
-    }
-    body {
-      margin: 0;
-      padding: 0;
-      min-height: 100vh;
-    }
-    #space-background {
-      position: fixed;
-      inset: 0;
-      z-index: -1;
-      background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
-    }
-    .star {
-      position: absolute;
-      background: #fff;
-      border-radius: 50%;
-      animation: twinkle 5s infinite;
-    }
-    @keyframes twinkle {
-      0%,100% {opacity:0.3;}
-      50% {opacity:1;}
-    }
-    .content-container {
-      background-color: rgba(0,0,0,0.7);
-      position: relative;
-      z-index: 1;
-    }
+    .hex { clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%); }
+    .fade-in { opacity: 0; transform: translateY(20px); transition: all .8s ease; }
+    .fade-in.visible { opacity: 1; transform: none; }
+    #space-background{position:fixed; inset:0; z-index:-1; background:radial-gradient(ellipse at bottom,#1B2735 0%,#090A0F 100%)}
+    .star{position:absolute; background:#fff; border-radius:50%; animation:twinkle 5s infinite}
+    @keyframes twinkle{0%,100%{opacity:.3}50%{opacity:1}}
+    .content{background:rgba(0,0,0,.75)}
   </style>
 </head>
-
-<body class="text-white font-sans">
-
+<body class="text-white">
 <div id="space-background"></div>
-
-<div class="content-container">
-
-<!-- Theme Toggle -->
-<button id="toggleTheme" class="fixed top-5 right-5 p-3 rounded-full bg-white text-black z-50">
-  <i class="fas fa-moon" id="themeIcon"></i>
-</button>
-
-<!-- Hero -->
-<section class="min-h-screen flex flex-col justify-center items-center text-center fade-in">
-  <div class="hex w-48 h-48 bg-white overflow-hidden mb-6">
-    <img src="prt.jpg" alt="Rachit Bharti" class="w-full h-full object-cover">
+<div class="content"><section class="min-h-screen flex flex-col justify-center items-center text-center fade-in">
+  <div class="hex w-44 h-44 bg-white overflow-hidden mb-6">
+    <img src="prt.jpg" alt="Rachit Bharti" class="w-full h-full object-cover" />
   </div>
-
-  <h1 class="text-4xl font-bold">
-    Hello, I am <span class="text-pink-500">Rachit Bharti</span>
-  </h1>
-
-  <p class="mt-2 text-lg">
-    MBA Graduate | Business Management | Strategy & Operations
+  <h1 class="text-4xl font-bold">Hello, I'm <span class="text-pink-500">Rachit Bharti</span></h1>
+  <p class="mt-2 text-lg">HR Officer | MBA (HR & Finance) | 11+ Years Experience</p>
+  <p class="mt-4 text-sm text-gray-300">
+    <i class="fa fa-envelope"></i> rachit.red12@gmail.com &nbsp;|&nbsp;
+    <i class="fa fa-phone"></i> +91 7011787979
   </p>
-
-  <p class="mt-4 text-sm">
-    Email: <span class="text-pink-400">yourmail@gmail.com</span> |
-    Phone: <span class="text-pink-400">+91 XXXXXXXXXX</span>
-  </p>
-</section>
-
-<!-- About -->
-<section class="max-w-5xl mx-auto px-6 py-12 fade-in">
-  <h2 class="text-3xl font-semibold border-b border-blue-500 pb-2 mb-6">About Me</h2>
+</section><section class="max-w-5xl mx-auto px-6 py-12 fade-in">
+  <h2 class="text-3xl font-semibold border-b border-blue-500 pb-2 mb-6">Career Objective</h2>
   <p>
-    MBA graduate with strong fundamentals in business management, strategy,
-    operations, and analytics. Passionate about solving business problems,
-    improving efficiency, and driving organizational growth through data-driven
-    decision-making.
+    To work in a challenging and professional organization where I can enhance my HR skills,
+    contribute meaningfully to organizational objectives, and grow through higher
+    responsibilities and continuous self-development.
   </p>
-</section>
-
-<!-- Skills -->
-<section class="max-w-5xl mx-auto px-6 py-12 fade-in">
-  <h2 class="text-3xl font-semibold border-b border-green-500 pb-2 mb-6">Skills</h2>
-  <ul class="grid grid-cols-2 md:grid-cols-3 gap-4 list-disc pl-6">
-    <li>Business Strategy</li>
-    <li>Operations Management</li>
-    <li>Marketing Management</li>
-    <li>Financial Analysis</li>
-    <li>Business Analytics</li>
-    <li>MS Excel & PowerPoint</li>
-    <li>Market Research</li>
-    <li>Project Management</li>
-  </ul>
-</section>
-
-<!-- Education -->
-<section class="max-w-5xl mx-auto px-6 py-12 fade-in">
-  <h2 class="text-3xl font-semibold border-b border-purple-500 pb-2 mb-6">Education</h2>
-  <ul class="list-disc pl-6 space-y-2">
-    <li><strong>MBA – Master of Business Administration</strong></li>
-    <li><strong>Bachelor’s Degree</strong></li>
-  </ul>
-</section>
-
-<!-- Experience -->
-<section class="max-w-5xl mx-auto px-6 py-12 fade-in">
-  <h2 class="text-3xl font-semibold border-b border-red-400 pb-2 mb-6">Experience</h2>
-  <ul class="space-y-4">
-    <li>
-      <strong>Management Trainee</strong><br>
-      <span class="text-gray-300 text-sm">
-        Worked on business analysis, reporting, and process improvement initiatives.
-      </span>
-    </li>
-    <li>
-      <strong>Intern – Business Operations</strong><br>
-      <span class="text-gray-300 text-sm">
-        Assisted in market research, presentations, and operational planning.
-      </span>
-    </li>
-  </ul>
-</section>
-
-<!-- Strengths -->
-<section class="max-w-5xl mx-auto px-6 py-12 fade-in">
-  <h2 class="text-3xl font-semibold border-b border-indigo-400 pb-2 mb-6">Strengths</h2>
-  <ul class="list-disc pl-6 space-y-2">
-    <li>Analytical thinking & problem-solving</li>
-    <li>Strong communication skills</li>
-    <li>Leadership & teamwork</li>
-    <li>Adaptability and quick learning</li>
-  </ul>
-</section>
-
-</div>
-
-<script>
-function createStars(){
-  const bg=document.getElementById('space-background');
-  for(let i=0;i<150;i++){
-    const s=document.createElement('div');
-    s.className='star';
-    s.style.width=s.style.height=Math.random()*2+1+'px';
-    s.style.left=Math.random()*100+'vw';
-    s.style.top=Math.random()*100+'vh';
-    bg.appendChild(s);
-  }
-}
-createStars();
-
-const observer=new IntersectionObserver(entries=>{
-  entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible')});
-});
-document.querySelectorAll('.fade-in').forEach(el=>observer.observe(el));
-
-document.getElementById('toggleTheme').onclick=()=>{
-  document.documentElement.classList.toggle('dark');
-};
-</script>
-
-</body>
-</html>
+</section><section class="max-w-5xl mx-auto px-6 py-12 fade-in">
+  <h2 class="text-3xl font-semibold border-b border-green-500 pb-2 mb-6">Professional Summary</h2>
+  <p>
+    HR professional with over 
